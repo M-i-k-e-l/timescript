@@ -2,7 +2,7 @@
   "name": "testing-time-script",
   "type": "module",
   "types": "./dist/@types",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "main": "./dist/index.js",
   "scripts": {
     "dev": "tsx watch ./src/index.ts",
