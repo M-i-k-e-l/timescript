@@ -4,7 +4,7 @@ export function formatDate (format: string, date: Date = new Date()): string {
   }
 
   // pad single digit numbers with a leading zero
-  const pad = (n: number) => n < 10 ? `0${n}` : `${n}`
+  const pad = (n: number): string => n < 10 ? `0${n}` : `${n}`
 
   // month names
   const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
